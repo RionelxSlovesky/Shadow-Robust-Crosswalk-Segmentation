@@ -1,0 +1,17 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Local app state and generated files
+.gradio/
+gradio_cached_examples/
+outputs/
+/dataset/test.py
+
+# Original checkpoint is over GitHub's regular file limit.
+# The smaller fp16 checkpoint is included instead.
+/best_deeplab_crosswalk_shadow.pth
